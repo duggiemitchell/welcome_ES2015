@@ -20,7 +20,7 @@ Install gulp in your project dependencies:
 
 `npm install --save-dev gulp`
 
-At your project root create a gulpfile.js file.  To use ES6 in your project, it's important yo insyal Babel (Babel 6) as a dependecy along with the es2015 plugin preset
+At your project root create a gulpfile.js file.  To use ES6 in your project, it's important to install Babel (Babel 6) as a dependecy along with the es2015 plugin preset
 ```
 npm install babel-core babel-preset-2015 --save-dev
 ```
@@ -51,3 +51,4 @@ gulp.task("default", () => {
     .pipe(gulp.dest("dist"));
 });
 ```
+This project is currently setup to transpile code under the `/src` folder using the `/src/app.j`s file as an entry point.
